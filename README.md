@@ -1,12 +1,12 @@
-#Supportdata-analyse for MORSE
+# Supportdata-analyse for MORSE
 
-##Om prosjektet
+## Om prosjektet
 
 Dette prosjektet utfører diverse analyser av supportdata fra telefonselskapet **MORSE**. Hver kundehenvendelse til MORSE blir loggført i en Excel-fil, og denne analysen fokuserer på data fra uke 24.
 
 **Filnavn**: support_uke_24.xlsx
 
-##Datastruktur
+## Datastruktur
 
 Filens kolonner er organisert som følger:
 
@@ -18,11 +18,11 @@ Filens kolonner er organisert som følger:
 
 4. **Kundetilfredshet** - Skala fra 1-10 (valgfri tilbakemelding)
 
-##Analyser
+## Analyser
 
 Programmet utfører følgende analyser:
 
-###Del A: Lese inn data
+### Del A: Lese inn data
 
 Lagrer data i fire arrays:
 
@@ -34,11 +34,11 @@ Lagrer data i fire arrays:
 
 4. `score`: Kundetilfredshet
 
-###Del B: Antall henvendelser per ukedag
+### Del B: Antall henvendelser per ukedag
 
 Teller antall henvendelser per ukedag og viser resultatet i et søylediagram.
 
-###Del C: Minste og lengste samtaletid
+### Del C: Minste og lengste samtaletid
 
 Finnes og skrives ut med informativ tekst på hva var mist og lengs samtaletid i uke 24.
 
@@ -46,7 +46,7 @@ Finnes og skrives ut med informativ tekst på hva var mist og lengs samtaletid i
 
 Beregner gjennomsnittlig samtaletid for alle henvendelser i uke 24..
 
-###Del E: Henvendelser per tidsbolk
+### Del E: Henvendelser per tidsbolk
 
 Grupperer henvendelser i 2-timers intervaller:
 
@@ -60,7 +60,7 @@ Grupperer henvendelser i 2-timers intervaller:
 
 Resultatet visualiseres med et sektordiagram.
 
-Del F: Beregning av Net Promoter Score (NPS)
+### Del F: Beregning av Net Promoter Score (NPS)
 
 Kundetilfredshet omgjøres til NPS basert på følgende regler:
 
@@ -73,7 +73,7 @@ Kundetilfredshet omgjøres til NPS basert på følgende regler:
 NPS beregnes som:
 
 
-##Bruk
+## Bruk
 
 1. Plasser `support_uke_24.xlsx` i samme mappe som Python-programmet.
 
@@ -81,11 +81,11 @@ NPS beregnes som:
 
 3. Se visualiseringene og analysene.
 
-##Krav
+## Krav
 
 - **Python 3**
 
-###Biblioteker:
+### Biblioteker:
 
 - `pandas` for databehandling
 
