@@ -24,7 +24,7 @@ varighet = data["Varighet"].values
 score = data["Tilfredshet"].values             
 
 
-#Del A. Skrive et program som finner antall henvendelser for hver de 5 ukedagene. Resultatet viser i et søylediagram.
+#Del B. Skrive et program som finner antall henvendelser for hver de 5 ukedagene. Resultatet viser i et søylediagram.
 #Antall henvendelser per ukedag
 
 antall_henvendelser_per_dag = data["Ukedag"].value_counts()                    
@@ -48,7 +48,7 @@ max_tid = np.max(varighet)
 #print(f"Den korteste samtale var {min_tid} minutter.")
 #print(f"Den lengste samtale var {max_tid} minutter.")
 
-#Del C. Skriv et program som regner ut gjennomsnitlig samtaletid basert på alle henvendelser i uke 24.
+#Del D. Skriv et program som regner ut gjennomsnitlig samtaletid basert på alle henvendelser i uke 24.
 
 data["Varighet"] = pd.to_timedelta(data["Varighet"], errors="coerce")           # Konverterer tidsverdiene fra formatet hh:mm:ss til timedelta-format.
 varighet = data["Varighet"].dt.total_seconds().values                           # Få varigheten i sekunder
