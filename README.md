@@ -42,7 +42,7 @@ Teller antall henvendelser per ukedag og viser resultatet i et søylediagram.
 
 Finnes og skrives ut med informativ tekst på hva var mist og lengs samtaletid i uke 24.
 
-###Del D: Gjennomsnittlig samtaletid
+### Del D: Gjennomsnittlig samtaletid
 
 Beregner gjennomsnittlig samtaletid for alle henvendelser i uke 24..
 
